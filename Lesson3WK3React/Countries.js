@@ -4,9 +4,9 @@ export default function Countries(props) {
   return (
     <div className="Countries">
       <ul>
-        {props.countries.map(function (country) {
+        {props.countries.map(function (country, index) {
           return (
-            <li>
+            <li key={index}>
               The capital of {country.name} is {country.capital}.
             </li>
           );
