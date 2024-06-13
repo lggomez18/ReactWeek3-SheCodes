@@ -15,3 +15,5 @@ export default function Countries(props) {
     </div>
   );
 }
+
+//Add a key to certain variables to avoid bugs in the console log when developing programs in react.
